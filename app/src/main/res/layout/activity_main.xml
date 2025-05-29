@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boton_operacion"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Ícono de matemáticas"
+            android:src="@drawable/matematicas" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="Ícono de estudiante"
+            android:src="@drawable/estudiante" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="¡Bienvenido Estudiante!"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="¡Desarrolla con Exito tus Matematicas!"
+        android:textColor="#E0E0E0"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCalculadoraNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:elevation="8dp"
+        android:padding="16dp"
+        android:text="Calculadora Normal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnCalculadoraCientifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:elevation="8dp"
+        android:padding="16dp"
+        android:text="Calculadora Científica"
+        android:textSize="18sp" />
+
+</LinearLayout> 

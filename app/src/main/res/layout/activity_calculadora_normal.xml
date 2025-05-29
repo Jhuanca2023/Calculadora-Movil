@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F0F0">
+
+    <TextView
+        android:id="@+id/tvOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="end"
+        android:padding="8dp"
+        android:text=""
+        android:textSize="24sp"
+        android:textColor="#666666"/>
+
+    <TextView
+        android:id="@+id/tvPantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="end"
+        android:padding="16dp"
+        android:text="0"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/FilaBotones">
+            <Button
+                android:id="@+id/btnLimpiar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="24sp"
+                android:backgroundTint="#FF5252"/>
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="⌫"
+                android:textSize="24sp"
+                android:backgroundTint="#FF7043"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/FilaBotones">
+            <Button android:id="@+id/btn7" style="@style/BotonCalculadora" android:text="7"/>
+            <Button android:id="@+id/btn8" style="@style/BotonCalculadora" android:text="8"/>
+            <Button android:id="@+id/btn9" style="@style/BotonCalculadora" android:text="9"/>
+            <Button android:id="@+id/btnDivision" style="@style/BotonOperacion" android:text="÷"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/FilaBotones">
+            <Button android:id="@+id/btn4" style="@style/BotonCalculadora" android:text="4"/>
+            <Button android:id="@+id/btn5" style="@style/BotonCalculadora" android:text="5"/>
+            <Button android:id="@+id/btn6" style="@style/BotonCalculadora" android:text="6"/>
+            <Button android:id="@+id/btnMultiplicacion" style="@style/BotonOperacion" android:text="×"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/FilaBotones">
+            <Button android:id="@+id/btn1" style="@style/BotonCalculadora" android:text="1"/>
+            <Button android:id="@+id/btn2" style="@style/BotonCalculadora" android:text="2"/>
+            <Button android:id="@+id/btn3" style="@style/BotonCalculadora" android:text="3"/>
+            <Button android:id="@+id/btnResta" style="@style/BotonOperacion" android:text="-"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/FilaBotones">
+            <Button android:id="@+id/btn0" style="@style/BotonCalculadora" android:text="0"/>
+            <Button android:id="@+id/btnPunto" style="@style/BotonCalculadora" android:text="."/>
+            <Button android:id="@+id/btnIgual" style="@style/BotonCalculadora" android:text="="/>
+            <Button android:id="@+id/btnSuma" style="@style/BotonOperacion" android:text="+"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout> 
