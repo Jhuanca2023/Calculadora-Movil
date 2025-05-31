@@ -12,7 +12,6 @@ Una aplicación móvil de calculadora desarrollada en Kotlin para Android. Este 
 
 ## Capturas de Pantalla
 
-_Agrega aquí tus capturas de pantalla de la aplicación._
 
 ## Instalación
 
